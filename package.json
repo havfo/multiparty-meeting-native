@@ -1,0 +1,63 @@
+{
+	"name": "multiparty-meeting-native",
+	"version": "0.1.0",
+	"private": true,
+	"devDependencies": {
+		"electron": "^7.1.1",
+		"eslint": "^6.5.1",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-react": "^7.16.0",
+		"foreman": "^2.0.0",
+		"react-scripts": "0.8.5"
+	},
+	"dependencies": {
+		"@material-ui/core": "^4.5.1",
+		"@material-ui/icons": "^4.5.1",
+		"bowser": "^2.7.0",
+		"dompurify": "^2.0.7",
+		"domready": "^1.0.8",
+		"file-saver": "^2.0.2",
+		"hark": "^1.2.3",
+		"marked": "^0.7.0",
+		"mediasoup-client": "^3.2.7",
+		"notistack": "^0.9.5",
+		"prop-types": "^15.7.2",
+		"random-string": "^0.2.0",
+		"react": "^16.10.2",
+		"react-dom": "^16.10.2",
+		"react-intl": "^3.4.0",
+		"react-redux": "^7.1.1",
+		"react-scripts": "3.2.0",
+		"redux": "^4.0.4",
+		"redux-logger": "^3.0.6",
+		"redux-persist": "^6.0.0",
+		"redux-thunk": "^2.3.0",
+		"reselect": "^4.0.0",
+		"riek": "^1.1.0",
+		"socket.io-client": "^2.3.0",
+		"source-map-explorer": "^2.1.0",
+		"webtorrent": "^0.107.16"
+	},
+	"homepage": "./",
+	"main": "src/electron-starter.js",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"electron": "electron .",
+		"dev": "nf start -p 3000"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
