@@ -1,5 +1,13 @@
 # multiparty-meeting-native
 
+* Create `public/config/config.js`
+
+```bash
+$ npm install
+$ npm run build
+$ npm run electron
+```
+
 TODO: update README
 
 ## Authors
