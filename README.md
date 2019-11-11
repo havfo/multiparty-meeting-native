@@ -1,3 +1,7 @@
+# Archived
+This repository has been merged with the main multiparty-meeting repository [here](https://github.com/havfo/multiparty-meeting).
+
+
 # multiparty-meeting-native
 
 * Create `public/config/config.js`
